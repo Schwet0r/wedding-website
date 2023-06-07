@@ -140,7 +140,19 @@
                     <i class="fa fa-barcode"></i>&nbsp;&nbsp;Dress code
                 </a>
                 
-<p id="timer"></p>
+
+<section id="countdown" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>Countdown</h3>
+                <p id="timer"></p>
+            </div>
+        </div>
+    </div>
+</section>
+                
+                
 
 <script>
 // Set the date we're counting down to
@@ -162,12 +174,12 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   // Output the result in an element with id="demo"
-  document.getElementById("timer").innerHTML = days + ":" + hours + ":" + minutes + ":" + seconds;
+  document.getElementById("timer").innerHTML = "Noch " + days + " Tage, " + hours + " Stunden, " + minutes + " Minuten und " + seconds + " Sekunden bis zum gro&szlig;en Tag!";
     
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("timer").innerHTML = "Vielen Dank f&uuml;r deinen Besuch :)";
+    document.getElementById("timer").innerHTML = "Vielen Dank für euren Besuch :)";
   }
 }, 1000);
 </script>
