@@ -122,11 +122,18 @@
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <h3>Worauf wartest du?</h3>
-                <p>Wir würden uns freuen, wenn du uns bis zum 15. August Bescheid geben könntest, ob du kommst.</p>
+                <p>Wir w&uuml;rden uns freuen, wenn du uns bis zum 1. August Bescheid geben könntest, ob du kommst.</p>
                 <form id="rsvp-form" class="rsvp-form"
                       action=""
                       method="POST">
                     <div class="row">
+                       <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-user"></i><input name="name" class=""
+                                                                 placeholder="Vor- und Nachname"
+                                                                 required>
+                            </div>
+                        </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
                                 <i class="fa fa-envelope"></i><input type="email" name="email" class=""
@@ -134,13 +141,7 @@
                                                                      required>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-user"></i><input name="name" class=""
-                                                                 placeholder="Vor- und Nachname"
-                                                                 required>
-                            </div>
-                        </div>
+                        
                                                 <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
                                 <i class="fa fa-user"></i><input name="tel" class=""
@@ -158,16 +159,15 @@
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-users"></i><input type="number" name="extras" class="" min="0"
-                                                                  max="4"
+                                <i class="fa fa-users"></i><input name="extras" class=""
                                                                   placeholder="Vor- und Nachname Begleitung"
                                                                   >
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-key"></i><input type="number" name="diet" id="diet"
-                                                                class="" min="0"
+                                <i class="fa fa-key"></i><input name="diet" id="diet"
+                                                                class="" 
                                                                 placeholder="Allergien/Besonderheiten"
                                                                 >
                             </div>
