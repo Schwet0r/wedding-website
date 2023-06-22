@@ -1,1 +1,553 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Britta & Philip heiraten!</title>
+    <meta name="description" content="Wir m&ouml;chten euch einladen, diesen besonderen Tag mit uns zu feiern.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="Britta & Philip heiraten!">
+    <meta property="og:description" content="Wir m&ouml;chten euch einladen, diesen besonderen Tag mit uns zu feiern.">
+    <meta property="og:image" content="https://www.hornung-schweter.de/img/hero-min.jpg">
+    <meta property="og:type" content="website">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body id="top">
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+<section class="hero">
+    <section class="navigation">
+        <header>
+            <div class="header-content">
+                <div class="logo"><a href="#"><img src="img/logo.png" alt="Logo"></a></div>
+                <div class="header-nav">
+                    <nav>
+                        <ul class="primary-nav">
+                         <li><a href="#invitation">Einladung</a></li>
+                            <li><a href="#events">Ablauf</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                            <li><a href="#eng-pics">Wir</a></li>
+                        </ul>
+                        <ul class="member-actions">
+                            <li><a href="#rsvp" class="btn-white btn-small">RSVP / R&uuml;ckmeldung</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="navicon">
+                    <a class="nav-toggle" href="#"><span></span></a>
+                </div>
+            </div>
+        </header>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="hero-content text-center">
+                    <!--<h1>Britta und Philip</h1>-->
+                    <img src="img/logo-lg.png">
+                    <!--<p class="intro">Britta & Philip heiraten!</p>-->
+                    <!--<a href="#" class="btn btn-fill btn-large btn-margin-right">Scroll Down</a> -->
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 hidden-xs"></div>
+            <div class="col-sm-4 hidden-xs text-center"><a href="#rsvp"
+                                                           class="btn btn-accent btn-large rsvp-btn">RSVP / R&uuml;ckmeldung</a></div>
+            <div class="col-sm-4 hidden-xs"></div>
+        </div>
+    </div>
+    <div class="down-arrow floating-arrow"><a href="#invitation"><i class="fa fa-angle-down"></i></a></div>
+</section>
 
+<section id="invitation" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>WIR HEIRATEN!</h3>
+                <p>Am 09. September 2023<br>im Schloss Eller<br>ab 16:00 Uhr.</p>
+                 <p><h5>Wir m&ouml;chten euch herzlich einladen, diesen wundervollen Tag mit uns zu feiern!</h5></p>
+            </div>
+        </div>
+    </div>
+</section>
+    
+    
+<section class="rsvp text-center" id="rsvp">
+
+    <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                    </button>
+                    <div class="section-padding">
+                        <h3>Danke!</h3>
+                        <p>Vielen Dank für deine Rückmeldung.</p>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    
+    
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <h3>Worauf wartest du?</h3>
+                <p>Wir w&uuml;rden uns freuen, wenn du uns <i>bis zum 1. August</i> Bescheid geben k&ouml;nntest, ob du kommst, wie wir dich erreichen k&ouml;nnen, wer dich begleitet und ob wir bei deiner Ern&auml;hrung auf etwas achten sollen.</p>
+                <form id="rsvp-form" class="rsvp-form"
+                      action="https://script.google.com/macros/s/AKfycbxGMjpnnlvsyRloMt4olocBADge5MIaQXkwFdkbySjNLLCN0ING5cogkwL3LKuZjq4K/exec"
+                      method="POST">
+                    <div class="row">
+                       <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-user"></i><input name="name" class=""
+                                                                 placeholder="Vor- und Nachname"
+                                                                 required>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-envelope"></i><input type="email" name="email" class=""
+                                                                     placeholder="E-Mail Adresse"
+                                                                     required>
+                            </div>
+                        </div>
+                        
+                          <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-phone"></i><input name="tel" class=""
+                                                                 placeholder="Telefonnummer"
+                                                                 required>
+                            </div>
+                        </div>
+
+                             <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-check"></i><input name="teiln" class=""
+                                                                  placeholder="Teilnahme ja/nein"
+                                                                  required>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-users"></i><input name="begl" class=""
+                                                                  placeholder="Vor- und Nachname Begleitung"
+                                                                  >
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-info"></i><input name="diet" id="diet"
+                                                                class="" 
+                                                                placeholder="Allergien/Besonderheiten"
+                                                                >
+                            </div>
+                        </div>
+                         <div class="col-md-6 col-sm-6" style="display: none">
+                            <div class="form-input-group">
+                                <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
+                                                                class="" min="0"
+                                                                placeholder="Invite code" value="271117"
+                                                                required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" id="alert-wrapper"></div>
+                    </div>
+                    <button class="btn-fill rsvp-btn">
+                        Absenden
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>    
+    
+<section class="events section-padding" id="events">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="header">Infos</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
+                <div class="wp3">
+                    <p><strong>Ablauf</strong></p>
+
+                    <h5>Freie Trauung <span class="time">16:00</span></h5>
+                    <p></p>
+                    <h5>Gruppenfoto und Sektempfang <span class="time">17:00</span></h5>
+                    <p></p>
+                    <h5>Abendessen <span class="time">19:00</span></h5>
+                    <p></p>
+                    <h5>Tanzfl&auml;chener&ouml;ffnung <span class="time">22:00</span></h5>
+
+                </div>
+              </div>
+            <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
+                <div class="wp4">
+                    <p><strong>Die Location</strong></p>
+
+                    <h5>Schloss Eller</h5>
+                    <p>Heidelberger Str. 42<br>40229 D&uuml;sseldorf<br><br><a href="https://goo.gl/maps/v9hiABz7rNV89HCo6" target="_blank">Maps</a></p>
+                    <p>Parkpl&auml;tze stehen am Schloss Eller zur Verf&uuml;gung (Heidelberger Straße 30).</p>
+                    <p>Lasst uns eure Musikw&uuml;nsche gerne &uuml;ber diese <a href="https://open.spotify.com/playlist/4MF8qTXgkw6xFqx0C7qOZn?si=399258484aca4102&pt=6e2f3e7347a6248128079115bd08a20f">Spotify Playlist</a> zukommen.</p>
+                    <p>Dress Code: Formal / Black Tie optional</p>
+                    <p>Adults only…</p>
+                </div>
+            </div>
+        </div>
+        
+        <!--<div class="row">
+            <div class="col-xs-12 section-border section-padding">
+            </div>
+        </div>-->
+    </div>
+    
+                 
+
+<section id="countdown" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>Countdown</h3>
+                <p id="timer"></p>
+            </div>
+        </div>
+    </div>
+</section>
+                
+                
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Sep 9, 2023 16:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("timer").innerHTML = "Noch " + days + " Tage, " + hours + " Stunden, " + minutes + " Minuten und " + seconds + " Sekunden bis zu unserem gro&szlig;en Tag!";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("timer").innerHTML = "Vielen Dank f&uuml;r euren Besuch :)";
+  }
+}, 1000);
+</script>
+ 
+
+</section>
+
+<section id="instagram" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>Ein Bild sagt mehr als tausend Worte!</h3>
+                <p>Wir freuen uns &uuml;ber jedes Foto von euch - egal ob von dir oder mit dir. Deine Fotos von Handy, Drohne oder Lochkamera m&ouml;chten wir
+                    <a href="https://schweter.quickconnect.to/mo/request/mkQuM4taZ" target="_blank">hier</a> sammeln. Anschließend werden wir sie in ein gemeinsames Album einf&uuml;gen und allen G&auml;sten zur Verf&uuml;gung stellen.
+                </p>
+                <p>Zus&auml;tzlich wird uns unsere Fotografin Ilka &uuml;ber den Tag hinweg begleitet. Ihre Fotos werden wir euch ebenfalls &uuml;ber den Link zur Verf&uuml;gung stellen.</p>
+
+            </div>
+        </div>
+        <div class="row wp7">
+            <div class="col-md-4 col-md-offset-4">
+                <img src="img/handypic.jpg">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="events section-padding" id="faq">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="header">FAQ</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
+                <div class="wp3">
+                    <p><strong>Gibt es Wochenendpl&auml;ne?</strong></p>
+                    <h5>Freitag (8. September)</h5>
+                    <p>Lasst uns gerne wissen, solltet ihr bereits am Freitag anreisen. Wir freuen uns auf einen informellen Abend in der Altstadt.</p>
+                    <h5>Samstag (9. September)</h5>
+                    <p>Das ist unser Hochzeitstag.</p>
+                    <h5>Sonntag (10. September)</h5>
+                    <p>Dieser Tag steht Euch zur freien Verf&uuml;gung, ob f&uuml;r Sightseeing oder zum Entspannen.</p>
+                </div>
+                                <div class="wp3">
+                    <p><strong>Wie ist der Dress Code?</strong></p>
+                    <h5>In K&uuml;rze: Formal / Black Tie Optional</h5>
+                    <p>Unsere freie Trauung und Feier finden im Schloss Eller statt. Bitte unterst&uuml;tzt uns dabei, dass wir uns alle an diesem Tag wie echte Royals f&uuml;hlen, indem ihr euch entsprechend schick macht!</p>
+                    <p>Wir freuen uns &uuml;ber Herren in dunklen Anz&uuml;gen oder Smokings mit Krawatte oder Fliege.</p>
+                    <p>Bei den Damen sind wir gespannt auf die Cocktail- oder Abendkleider in den vielf&auml;ltigen Blau-, Gr&uuml;n- und Pastellt&ouml;nen.</p>
+                </div>
+                                                <div class="wp3">
+                    <p><strong>Bis wann muss ich mich zur&uuml;ck melden?</strong></p>
+                    <p>Wir w&uuml;rden uns &uuml;ber eine R&uuml;ckmeldung bis zum 01. August 2023 freuen.</p>
+                </div>
+              </div>
+            <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
+                <div class="wp4">
+                    <p><strong>Wie wird das Wetter?</strong></p>
+                    <p>Mit durchschnittlich 22 Grad in den vergangenen Jahren z&auml;hlt der 09.09. historisch zu den w&auml;rmeren Tagen. Mit durchschnittlich zwei Regentagen im September hoffen wir, dass es trocken bleibt. Sollte uns das Wetter nicht zusagen, haben wir eine Indoor-Alternative.</p>
+                </div>
+                                <div class="wp4">
+                    <p><strong>Sind Kinder eingeladen?</strong></p>
+                    <p>Wir freuen uns, diesen besonderen Tag mit allen Erwachsenen zu feiern. Daher w&uuml;rden wir euch bitten, dass ihr eure Kinder f&uuml;r diesen Abend in vertrauensvolle H&auml;nde gebt. Gebt euren Kindern doch auch mal einen „sturmfreien“ Abend &#128521; Solltet ihr hierzu R&uuml;ckfragen haben, kommt gerne auf uns zu - wir finden sicher eine L&ouml;sung.</p>
+                </div>
+                                              <div class="wp4">
+                    <p><strong>Gibt es Hotelempfehlungen?</strong></p>
+                    <p>In Abh&auml;ngigkeit eurer An- und Abreise empfehlen wir euch ein Hotel direkt im Zentrum. Schloss Eller ist gut mit den &ouml;ffentlichen Verkehrsmitteln oder dem Taxi erreichbar. Wenn ihr dazu Fragen habt, kommt gerne auf uns zu.</p>
+                </div>
+                                                             <div class="wp4">
+                    <p><strong>Wie komme ich zum Schloss Eller?</strong></p>
+                    <p>Am Schloss Eller stehen ausreichend Parkm&ouml;glichkeiten zur Verf&uuml;gung (aus der Innenstadt in Abh&auml;ngigkeit vom Verkehr ca. 15-25 Minuten Fahrt). Eine Anreise mit Bus oder U-Bahn (Haltestelle D-Vennhauser Allee) oder S-Bahn (Haltestelle D&uuml;sseldorf Eller-S&uuml;d) ist ebenfalls unkompliziert m&ouml;glich (8 - 14 Minuten Fußweg).</p>
+                </div>
+            </div>
+        </div>
+        <!--<div class="row">
+            <div class="col-xs-12 section-border section-padding">
+            </div>
+        </div>-->
+    </div>
+    
+<section id="eng-pics" class="section-padding">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3 class="header">Unser Startschuss: 12.12.2020</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/s01-lg.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/s01-sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/s02-lg.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/s02-sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/s03-lg.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/s03-sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/s04-lg.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/s04-sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/s05-lg.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/s05-sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/s06-lg.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/s06-sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row hidden-lg hidden-md hidden-xs">
+            <div class="col-xs-12 section-border section-padding"></div>
+        </div>
+    </div>
+    <!--<div class="row">
+        <div class="col-md-12">
+            <div class="diamond floating-logo">
+                <img src="img/sketch-logo.png" alt="Sketch Logo">
+                <div class="ring"></div>
+            </div>
+        </div>
+    </div>-->
+</section>
+
+<section id="eng-pics" class="section-padding">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3 class="header">Unsere standesamtliche Hochzeit: 02.12.2022</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/e01-lg.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/e01-sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/e02-lg.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/e02-sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/e03-lg.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/e03-sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/e04-lg.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/e04-sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/e05-lg.jpeg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/e05-sm.jpeg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/e06-lg.jpeg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/e06-sm.jpeg" alt=""/>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row hidden-lg hidden-md hidden-xs">
+            <div class="col-xs-12 section-border section-padding"></div>
+        </div>
+    </div>
+    <!--<div class="row">
+        <div class="col-md-12">
+            <div class="diamond floating-logo">
+                <img src="img/sketch-logo.png" alt="Sketch Logo">
+                <div class="ring"></div>
+            </div>
+        </div>
+    </div>-->
+</section>    
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center content">
+                <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
+                <p>Crafted by Ram with lots of <span class="fa fa-heart pulse2"></span> for Antara<br>Modified by Philip with many thanks to Ram, thank you for the great work...and of course much <span class="fa fa-heart pulse2"></span> for Britta, too</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/jquery.mb.YTPlayer.min.js"></script>
+<script src="node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
+<script src="js/vendor/ouical.js"></script>
+<script src="js/scripts.min.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlPw3GQYI3faa_9mRE6plWuM7xNEmrwH0&callback=initMap"></script>
+</body>
+</html>
